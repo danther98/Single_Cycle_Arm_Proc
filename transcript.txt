@@ -1,0 +1,444 @@
+# vsim "+nowarn3829" -error 3015 -voptargs="+acc" -l transcript.txt work.testbench 
+# Start time: 17:05:34 on Mar 12,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading work.top(fast)
+# Loading work.arm(fast)
+# Loading work.controller(fast)
+# Loading work.decoder(fast)
+# Loading work.condlogic(fast)
+# Loading work.flopenr(fast)
+# Loading work.condcheck(fast)
+# Loading work.datapath(fast)
+# Loading work.mux2(fast)
+# Loading work.flopenr(fast__1)
+# Loading work.adder(fast)
+# Loading work.mux2(fast__1)
+# Loading work.regfile(fast)
+# Loading work.extend(fast)
+# Loading work.alu(fast)
+# Loading work.imem(fast)
+# Loading work.dmem(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: danth  Hostname: DANIELDESKTOP  ProcessID: 24756
+#           Attempting to use alternate WLF file "./wlftmac2zr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmac2zr
+do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is danth@DANIELDESKTOP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# ./memfile2.dat
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:06:25 on Mar 12,2022
+# vlog -reportprogress 300 imem.v dmem.v arm_single.sv top.sv tb.sv 
+# -- Compiling module imem
+# -- Compiling module dmem
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# -- Compiling module top
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	flopr
+# 	testbench
+# End time: 17:06:25 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:06:26 on Mar 12,2022, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 3
+# vsim "+nowarn3829" -error 3015 -voptargs="+acc" -l transcript.txt work.testbench 
+# Start time: 17:06:26 on Mar 12,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading work.top(fast)
+# Loading work.arm(fast)
+# Loading work.controller(fast)
+# Loading work.decoder(fast)
+# Loading work.condlogic(fast)
+# Loading work.flopenr(fast)
+# Loading work.condcheck(fast)
+# Loading work.datapath(fast)
+# Loading work.mux2(fast)
+# Loading work.flopenr(fast__1)
+# Loading work.adder(fast)
+# Loading work.mux2(fast__1)
+# Loading work.regfile(fast)
+# Loading work.extend(fast)
+# Loading work.alu(fast)
+# Loading work.imem(fast)
+# Loading work.dmem(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: danth  Hostname: DANIELDESKTOP  ProcessID: 24756
+#           Attempting to use alternate WLF file "./wlftmhc7af".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmhc7af
+do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is danth@DANIELDESKTOP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# ./memfile2.dat
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:11:08 on Mar 12,2022
+# vlog -reportprogress 300 imem.v dmem.v arm_single.sv top.sv tb.sv 
+# -- Compiling module imem
+# -- Compiling module dmem
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# -- Compiling module top
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	flopr
+# 	testbench
+# End time: 17:11:08 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:11:09 on Mar 12,2022, Elapsed time: 0:04:43
+# Errors: 0, Warnings: 3
+# vsim "+nowarn3829" -error 3015 -voptargs="+acc" -l transcript.txt work.testbench 
+# Start time: 17:11:09 on Mar 12,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading work.top(fast)
+# Loading work.arm(fast)
+# Loading work.controller(fast)
+# Loading work.decoder(fast)
+# Loading work.condlogic(fast)
+# Loading work.flopenr(fast)
+# Loading work.condcheck(fast)
+# Loading work.datapath(fast)
+# Loading work.mux2(fast)
+# Loading work.flopenr(fast__1)
+# Loading work.adder(fast)
+# Loading work.mux2(fast__1)
+# Loading work.regfile(fast)
+# Loading work.extend(fast)
+# Loading work.alu(fast)
+# Loading work.imem(fast)
+# Loading work.dmem(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: danth  Hostname: DANIELDESKTOP  ProcessID: 24756
+#           Attempting to use alternate WLF file "./wlftbftywn".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbftywn
+do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is danth@DANIELDESKTOP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# ./memfile2.dat
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:14:47 on Mar 12,2022
+# vlog -reportprogress 300 imem.v dmem.v arm_single.sv top.sv tb.sv 
+# -- Compiling module imem
+# -- Compiling module dmem
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# -- Compiling module top
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	flopr
+# 	testbench
+# End time: 17:14:47 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:14:54 on Mar 12,2022, Elapsed time: 0:03:45
+# Errors: 0, Warnings: 3
+# vsim "+nowarn3829" -error 3015 -voptargs="+acc" -l transcript.txt work.testbench 
+# Start time: 17:14:54 on Mar 12,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading work.top(fast)
+# Loading work.arm(fast)
+# Loading work.controller(fast)
+# Loading work.decoder(fast)
+# Loading work.condlogic(fast)
+# Loading work.flopenr(fast)
+# Loading work.condcheck(fast)
+# Loading work.datapath(fast)
+# Loading work.mux2(fast)
+# Loading work.flopenr(fast__1)
+# Loading work.adder(fast)
+# Loading work.mux2(fast__1)
+# Loading work.regfile(fast)
+# Loading work.extend(fast)
+# Loading work.alu(fast)
+# Loading work.imem(fast)
+# Loading work.dmem(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: danth  Hostname: DANIELDESKTOP  ProcessID: 24756
+#           Attempting to use alternate WLF file "./wlftaf7y69".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftaf7y69
+do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is danth@DANIELDESKTOP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# ./memfile2.dat
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:27:20 on Mar 12,2022
+# vlog -reportprogress 300 imem.v dmem.v arm_single.sv top.sv tb.sv 
+# -- Compiling module imem
+# -- Compiling module dmem
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# -- Compiling module top
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	flopr
+# 	testbench
+# End time: 17:27:20 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:27:21 on Mar 12,2022, Elapsed time: 0:12:27
+# Errors: 0, Warnings: 3
+# vsim "+nowarn3829" -error 3015 -voptargs="+acc" -l transcript.txt work.testbench 
+# Start time: 17:27:21 on Mar 12,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading work.top(fast)
+# Loading work.arm(fast)
+# Loading work.controller(fast)
+# Loading work.decoder(fast)
+# Loading work.condlogic(fast)
+# Loading work.flopenr(fast)
+# Loading work.condcheck(fast)
+# Loading work.datapath(fast)
+# Loading work.mux2(fast)
+# Loading work.flopenr(fast__1)
+# Loading work.adder(fast)
+# Loading work.mux2(fast__1)
+# Loading work.regfile(fast)
+# Loading work.extend(fast)
+# Loading work.alu(fast)
+# Loading work.imem(fast)
+# Loading work.dmem(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: danth  Hostname: DANIELDESKTOP  ProcessID: 24756
+#           Attempting to use alternate WLF file "./wlft91s8kx".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft91s8kx
+do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is danth@DANIELDESKTOP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# ./memfile2.dat
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:35:06 on Mar 12,2022
+# vlog -reportprogress 300 imem.v dmem.v arm_single.sv top.sv tb.sv 
+# -- Compiling module imem
+# -- Compiling module dmem
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# -- Compiling module top
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	flopr
+# 	testbench
+# End time: 17:35:06 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:35:07 on Mar 12,2022, Elapsed time: 0:07:46
+# Errors: 0, Warnings: 3
+# vsim "+nowarn3829" -error 3015 -voptargs="+acc" -l transcript.txt work.testbench 
+# Start time: 17:35:07 on Mar 12,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading work.top(fast)
+# Loading work.arm(fast)
+# Loading work.controller(fast)
+# Loading work.decoder(fast)
+# Loading work.condlogic(fast)
+# Loading work.flopenr(fast)
+# Loading work.condcheck(fast)
+# Loading work.datapath(fast)
+# Loading work.mux2(fast)
+# Loading work.flopenr(fast__1)
+# Loading work.adder(fast)
+# Loading work.mux2(fast__1)
+# Loading work.regfile(fast)
+# Loading work.extend(fast)
+# Loading work.alu(fast)
+# Loading work.imem(fast)
+# Loading work.dmem(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: danth  Hostname: DANIELDESKTOP  ProcessID: 24756
+#           Attempting to use alternate WLF file "./wlft3exygf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft3exygf
+# Causality operation skipped due to absence of debug database file
+do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is danth@DANIELDESKTOP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# ./memfile2.dat
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:48:55 on Mar 12,2022
+# vlog -reportprogress 300 imem.v dmem.v arm_single.sv top.sv tb.sv 
+# -- Compiling module imem
+# -- Compiling module dmem
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# -- Compiling module top
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	flopr
+# 	testbench
+# End time: 17:48:55 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:48:56 on Mar 12,2022, Elapsed time: 0:13:49
+# Errors: 0, Warnings: 4
+# vsim "+nowarn3829" -error 3015 -voptargs="+acc" -l transcript.txt work.testbench 
+# Start time: 17:48:56 on Mar 12,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading work.top(fast)
+# Loading work.arm(fast)
+# Loading work.controller(fast)
+# Loading work.decoder(fast)
+# Loading work.condlogic(fast)
+# Loading work.flopenr(fast)
+# Loading work.condcheck(fast)
+# Loading work.datapath(fast)
+# Loading work.mux2(fast)
+# Loading work.flopenr(fast__1)
+# Loading work.adder(fast)
+# Loading work.mux2(fast__1)
+# Loading work.regfile(fast)
+# Loading work.extend(fast)
+# Loading work.alu(fast)
+# Loading work.imem(fast)
+# Loading work.dmem(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: danth  Hostname: DANIELDESKTOP  ProcessID: 24756
+#           Attempting to use alternate WLF file "./wlft397jk5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft397jk5
+# Can't move the Now cursor.
+do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is danth@DANIELDESKTOP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# ./memfile2.dat
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:50:34 on Mar 12,2022
+# vlog -reportprogress 300 imem.v dmem.v arm_single.sv top.sv tb.sv 
+# -- Compiling module imem
+# -- Compiling module dmem
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# -- Compiling module top
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	flopr
+# 	testbench
+# End time: 17:50:34 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:50:35 on Mar 12,2022, Elapsed time: 0:01:39
+# Errors: 1, Warnings: 3
+# vsim "+nowarn3829" -error 3015 -voptargs="+acc" -l transcript.txt work.testbench 
+# Start time: 17:50:35 on Mar 12,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading work.top(fast)
+# Loading work.arm(fast)
+# Loading work.controller(fast)
+# Loading work.decoder(fast)
+# Loading work.condlogic(fast)
+# Loading work.flopenr(fast)
+# Loading work.condcheck(fast)
+# Loading work.datapath(fast)
+# Loading work.mux2(fast)
+# Loading work.flopenr(fast__1)
+# Loading work.adder(fast)
+# Loading work.mux2(fast__1)
+# Loading work.regfile(fast)
+# Loading work.extend(fast)
+# Loading work.alu(fast)
+# Loading work.imem(fast)
+# Loading work.dmem(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: danth  Hostname: DANIELDESKTOP  ProcessID: 24756
+#           Attempting to use alternate WLF file "./wlftkh20k3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkh20k3
+# End time: 17:55:29 on Mar 12,2022, Elapsed time: 0:04:54
+# Errors: 0, Warnings: 2
