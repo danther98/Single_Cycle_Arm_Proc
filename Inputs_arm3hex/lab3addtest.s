@@ -10,5 +10,8 @@ add r3, r2
 add r4, r3
 add r5, r4
 add r6, r5
+cmp r5, #75
+teq r5,r5
+tst r4,r3
 bic r6, r6
 swi #10
