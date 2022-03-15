@@ -86,7 +86,7 @@ module arm (input  logic        clk, reset,
    logic [3:0] ALUFlags;
    logic       RegWrite, ALUSrc, MemtoReg, PCSrc;
    logic [2:0] RegSrc;   
-   logic [1:0] ImmSrc, ALUControl;
+   logic [3:0] ImmSrc, ALUControl;
    
    controller c (.clk(clk),
                  .reset(reset),
@@ -125,9 +125,9 @@ module controller (input  logic         clk, reset,
                    input  logic [ 3:0]  ALUFlags,
                    output logic [ 2:0]  RegSrc,
                    output logic         RegWrite,
-                   output logic [ 1:0]  ImmSrc,
+                   output logic [ 3:0]  ImmSrc,
                    output logic         ALUSrc, 
-                   output logic [ 1:0]  ALUControl,
+                   output logic [ 3:0]  ALUControl,
                    output logic         MemWrite, MemtoReg,
                    output logic         PCSrc,
                    output logic         MemStrobe);
@@ -167,7 +167,7 @@ module decoder (input  logic [1:0] Op,
                 output logic [1:0] FlagW,
                 output logic       PCS, RegW, MemW,
                 output logic       MemtoReg, ALUSrc,
-                output logic [1:0] ImmSrc, ALUControl,
+                output logic [3:0] ImmSrc, ALUControl,
                 output logic [2:0] RegSrc,
                 output logic       MemStrobe);
    
@@ -201,22 +201,27 @@ module decoder (input  logic [1:0] Op,
      if (ALUOp)
        begin                 // which DP Instr?
          case(Funct[4:1]) 
-           4'b0100: ALUControl = 4'b00; // ADD
-           4'b0010: ALUControl = 4'b01; // SUB
-           4'b0000: ALUControl = 4'b10; // AND
-           4'b1100: ALUControl = 4'b11; // ORR
+           4'b0100: ALUControl = 4'b00;  //ADD
+           4'b0010: ALUControl = 4'b01;  //SUB
+           4'b0000: ALUControl = 4'b10;  //AND
+           4'b1100: ALUControl = 4'b11;  //ORR
            4'b1110: ALUControl = 4'b0100; //BIC
-           4'b0001: ALUControl = 4'b0101;//EOR
-           4'b1010: ALUControl = 4'b0110;//CMP
-           4'b1111: ALUControl = 4'b1000;//MVN
-           4'b0101: ALUControl = 4'b0111;//ADC
-           default: ALUControl = 4'bx;  // unimplemented
+           4'b0001: ALUControl = 4'b0101; //EOR
+           4'b1010: ALUControl = 4'b0110; //CMP
+           4'b1111: ALUControl = 4'b1000; //MVN
+           4'b0101: ALUControl = 4'b0111; //ADC
+           4'b1101: ALUControl = 4'b1001; //MOV
+           4'b1011: ALUControl = 4'b1010; //CMN
+           4'b1001: ALUControl = 4'b1011; //TEQ
+           4'b1000: ALUControl = 4'b1100; //TST
+           4'b0110: ALUControl = 4'b1101; //SBC
+           default: ALUControl = 4'bx;  //unimplemented
          endcase
          // update flags if S bit is set 
          // (C & V only updated for arith instructions)
-         FlagW[1]      = Funct[0]; // FlagW[1] = S-bit
+         FlagW[1]      = Funct[0] & (ALUControl == 4'b0110 | ALUControl == 4'b1010 | ALUControl == 4'b1011 | ALUControl == 4'b1100); // FlagW[1] = S-bit
          // FlagW[0] = S-bit & (ADD | SUB)
-         FlagW[0]      = Funct[0] & (ALUControl == 2'b00 | ALUControl == 2'b01);
+         FlagW[0]      = Funct[0] & (ALUControl == 4'b00 | ALUControl == 4'b01 | ALUControl == 4'b10 | ALUControl == 4'b11 | ALUControl == 4'b0100 | ALUControl == 4'b0101 | ALUControl == 4'b1000 | ALUControl == 4'b0111 | ALUControl == 4'b1001);
        end
      else
        begin
@@ -295,14 +300,14 @@ module condcheck (input  logic [3:0] Cond,
 endmodule // condcheck
 
 module datapath (input  logic        clk, reset,
-                 input  logic [ 2:0]  RegSrc,
+                 input  logic [2:0]  RegSrc,
                  input  logic        RegWrite,
-                 input  logic [ 1:0]  ImmSrc,
+                 input  logic [3:0]  ImmSrc,
                  input  logic        ALUSrc,
-                 input  logic [ 1:0]  ALUControl,
+                 input  logic [3:0]  ALUControl,
                  input  logic        MemtoReg,
                  input  logic        PCSrc,
-                 output logic [ 3:0]  ALUFlags,
+                 output logic [3:0]  ALUFlags,
                  output logic [31:0] PC,
                  input  logic [31:0] Instr,
                  output logic [31:0] ALUResult, WriteData,
@@ -311,7 +316,7 @@ module datapath (input  logic        clk, reset,
    
    logic [31:0] PCNext, PCPlus4, PCPlus8;
    logic [31:0] ExtImm, SrcA, SrcB, Result;
-   logic [ 3:0]  RA1, RA2, RA3;
+   logic [3:0]  RA1, RA2, RA3;
    logic [31:0] RA4;   
    
    // next PC logic
@@ -385,7 +390,7 @@ endmodule // datapath
 
 module regfile (input  logic        clk, 
                 input  logic        we3, 
-                input  logic [ 3:0] ra1, ra2, wa3, 
+                input  logic [3:0] ra1, ra2, wa3, 
                 input  logic [31:0] wd3, r15,
                 output logic [31:0] rd1, rd2);
    
@@ -405,7 +410,7 @@ module regfile (input  logic        clk,
 endmodule // regfile
 
 module extend (input  logic [23:0] Instr,
-               input  logic [ 1:0] ImmSrc,
+               input  logic [3:0] ImmSrc,
                output logic [31:0] ExtImm);
    
    always_comb
@@ -478,12 +483,17 @@ module alu (input  logic [31:0] a, b,
      casex (ALUControl[3:0])
        4'b0?:  Result = sum;
        4'b10:  Result = a & b;//AND
-       4'b11:  Result = a | b;
+       4'b11:  Result = a | b;//orr
        4'b0100: Result = a & ~b;//BIC
        4'b0101: Result = a ^ b;//Eor
        4'b0110: Result = a - b;//CMP
        4'b0111: Result = a+b;//ADC
        4'b1000: Result = ~a;//MVN
+       4'b1001: Result = b;//MOV
+       4'b1101: Result = a - b;//SBC
+       4'b1011: Result = a ^ b;//TEQ
+       4'b1100: Result = a & b; //TST
+       
        default: Result = 32'bx;
      endcase
 
