@@ -24,9 +24,8 @@ This is a single-cycle Arm V4 processor takes inputs into decoder, decodes the c
    stored in all the registers (i.e., the architectural state) should be updated in such a way that the
    instruction can be considered to have correctly executed.
    
-  -The Verilog model given to you utilizes a Harvard architecture. The code is loaded through the DO
-    file at the beginning of simulation. Please check the example code to understand how this works.
-
+  -The Verilog model given utilizes a Harvard architecture. The code is loaded through the DO
+    file at the beginning of simulation. 
   
     
     
@@ -55,8 +54,10 @@ This is a single-cycle Arm V4 processor takes inputs into decoder, decodes the c
   --Currently working on implementing instructions into the ALU--
   -Had to change ALU control bit size from 2 to 4 to create space for extra commands
   -Changing .do file to memfile2.do for new commands from hex codes compiled using arm3hex
+  -Finished Data proccessing commands.
 
   --Need to do--
   -Ensure Data Processing instructions work with both Immediate and Register formats
   -Memory instructions should work with only offset based addressing
+  -Ensure flags work with all commands. 
   -All instructions should support the list of condition codes that have been discussed in class. 
