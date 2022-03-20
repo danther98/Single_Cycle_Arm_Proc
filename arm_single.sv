@@ -116,7 +116,9 @@ module arm (input  logic        clk, reset,
                 .ALUResult(ALUResult),
                 .WriteData(WriteData),
                 .ReadData(ReadData),
-                .PCReady(PCReady));
+                .PCReady(PCReady),
+                .Ibit(Instr[25]),
+                .sh(Instr[6:5]));
    
 endmodule // arm
 
@@ -312,12 +314,15 @@ module datapath (input  logic        clk, reset,
                  input  logic [31:0] Instr,
                  output logic [31:0] ALUResult, WriteData,
                  input  logic [31:0] ReadData,
-                 input  logic        PCReady);
+                 input  logic        PCReady,
+                 input logic          Ibit,//i bit and shift instruction 
+                 input logic  [1:0] sh);
    
    logic [31:0] PCNext, PCPlus4, PCPlus8;
    logic [31:0] ExtImm, SrcA, SrcB, Result;
    logic [3:0]  RA1, RA2, RA3;
    logic [31:0] RA4;   
+   
    
    // next PC logic
    mux2 #(32)  pcmux (.d0(PCPlus4),
@@ -373,18 +378,20 @@ module datapath (input  logic        clk, reset,
                     .ExtImm(ExtImm));
 
    // ALU logic 
+ 
+
    mux2 #(32)  srcbmux (.d0(WriteData),
                         .d1(ExtImm),
                         .s(ALUSrc),
                         .y(SrcB));
    alu         alu (.a(SrcA),
                     .b(SrcB),
+                    .Ibit(Instr[25]),
+                    .src2(Instr[11:0]),
                     .ALUControl(ALUControl),
                     .Result(ALUResult),
                     .ALUFlags(ALUFlags));
-
-  
-                         
+      
 
 endmodule // datapath
 
@@ -467,10 +474,15 @@ module mux2 #(parameter WIDTH = 8)
 endmodule // mux2
 
 
+
+
+
 module alu (input  logic [31:0] a, b,
             input  logic [ 3:0] ALUControl,
             output logic [31:0] Result,
-            output logic [ 3:0] ALUFlags);
+            output logic [ 3:0] ALUFlags,
+            input logic Ibit,
+            input logic [11:0] src2);
    
    logic        neg, zero, carry, overflow;
    logic [31:0] condinvb;
@@ -489,7 +501,24 @@ module alu (input  logic [31:0] a, b,
        4'b0110: Result = a - b;//CMP
        4'b0111: Result = a+b;//ADC
        4'b1000: Result = ~a;//MVN
+       4'b1001:
+        begin
+          if(Ibit == 1)
+            Result = b;//MOV
+          else
+            begin
+              casex (src2[6:5])
+                2'b00: Result = b << src2[11:7]; // LSL
+                2'b01: Result = b >> src2[11:7]; // LSR
+                2'b10: Result = b >>> src2[11:7]; // ASR
+                2'b11: Result = (b>>2*src2[11:7]|(b<<(32-2*src2[11:7]))); // ROR
+              endcase
+            end
+        end
+
+
        4'b1001: Result = b;//MOV
+
        4'b1101: Result = a - b;//SBC
        4'b1011: Result = a ^ b;//TEQ
        4'b1100: Result = a & b; //TST

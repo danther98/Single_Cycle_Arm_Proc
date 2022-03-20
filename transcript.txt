@@ -1,5 +1,5 @@
 # vsim "+nowarn3829" -error 3015 -voptargs="+acc" -l transcript.txt work.testbench 
-# Start time: 17:05:34 on Mar 12,2022
+# Start time: 13:30:31 on Mar 20,2022
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading sv_std.std
 # Loading work.testbench(fast)
@@ -22,15 +22,667 @@
 # Loading work.dmem(fast)
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: danth  Hostname: DANIELDESKTOP  ProcessID: 24756
-#           Attempting to use alternate WLF file "./wlftmac2zr".
+#           Attempting to use alternate WLF file "./wlftmgt4d3".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftmac2zr
+#           Using alternate file: ./wlftmgt4d3
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:04 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# ** Error: (vlog-13069) C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv(492): near "if": syntax error, unexpected if.
+# End time: 13:35:04 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/modeltech64_10.7f/win64/vlog failed.
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:04 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# ** Error: (vlog-13069) C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv(492): near "if": syntax error, unexpected if.
+# End time: 13:35:04 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/modeltech64_10.7f/win64/vlog failed.
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:04 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# ** Error: (vlog-13069) C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv(492): near "if": syntax error, unexpected if.
+# End time: 13:35:04 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/modeltech64_10.7f/win64/vlog failed.
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:04 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# ** Error: (vlog-13069) C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv(492): near "if": syntax error, unexpected if.
+# End time: 13:35:04 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/modeltech64_10.7f/win64/vlog failed.
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:04 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# ** Error: (vlog-13069) C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv(492): near "if": syntax error, unexpected if.
+# End time: 13:35:04 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/modeltech64_10.7f/win64/vlog failed.
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:04 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# ** Error: (vlog-13069) C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv(492): near "if": syntax error, unexpected if.
+# End time: 13:35:04 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/modeltech64_10.7f/win64/vlog failed.
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:04 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# ** Error: (vlog-13069) C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv(492): near "if": syntax error, unexpected if.
+# End time: 13:35:04 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/modeltech64_10.7f/win64/vlog failed.
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:04 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# ** Error: (vlog-13069) C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv(492): near "if": syntax error, unexpected if.
+# End time: 13:35:04 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/modeltech64_10.7f/win64/vlog failed.
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/dmem.v}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:05 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/dmem.v 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 13:35:05 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:05 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# ** Error: (vlog-13069) C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv(492): near "if": syntax error, unexpected if.
+# End time: 13:35:05 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/modeltech64_10.7f/win64/vlog failed.
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:05 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# ** Error: (vlog-13069) C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv(492): near "if": syntax error, unexpected if.
+# End time: 13:35:05 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/modeltech64_10.7f/win64/vlog failed.
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:05 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# ** Error: (vlog-13069) C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv(492): near "if": syntax error, unexpected if.
+# End time: 13:35:05 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/modeltech64_10.7f/win64/vlog failed.
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/imem.v}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:05 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/imem.v 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 13:35:05 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:05 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# ** Error: (vlog-13069) C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv(492): near "if": syntax error, unexpected if.
+# End time: 13:35:05 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/modeltech64_10.7f/win64/vlog failed.
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:05 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# ** Error: (vlog-13069) C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv(492): near "if": syntax error, unexpected if.
+# End time: 13:35:05 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/modeltech64_10.7f/win64/vlog failed.
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/tb.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:05 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/tb.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 13:35:05 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/top.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:05 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:35:05 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:24 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 13:35:24 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:24 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 13:35:24 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:24 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 13:35:24 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:24 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 13:35:24 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:24 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 13:35:24 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:25 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 13:35:25 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:25 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 13:35:25 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:25 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 13:35:25 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/dmem.v}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:25 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/dmem.v 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 13:35:25 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:25 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 13:35:25 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:25 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 13:35:25 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:25 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 13:35:25 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/imem.v}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:25 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/imem.v 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 13:35:25 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:25 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 13:35:25 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:25 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 13:35:25 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/tb.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:25 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/tb.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 13:35:26 on Mar 20,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/top.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 13:35:26 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:35:26 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
 # ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is danth@DANIELDESKTOP.
 # ** Warning: (vlib-34) Library already exists at "work".
 # ./memfile2.dat
 # Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
-# Start time: 17:06:25 on Mar 12,2022
+# Start time: 13:35:30 on Mar 20,2022
 # vlog -reportprogress 300 imem.v dmem.v arm_single.sv top.sv tb.sv 
 # -- Compiling module imem
 # -- Compiling module dmem
@@ -53,43 +705,651 @@ do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
 # Top level modules:
 # 	flopr
 # 	testbench
-# End time: 17:06:25 on Mar 12,2022, Elapsed time: 0:00:00
+# End time: 13:35:30 on Mar 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 17:06:26 on Mar 12,2022, Elapsed time: 0:00:52
+# End time: 13:35:31 on Mar 20,2022, Elapsed time: 0:05:00
+# Errors: 26, Warnings: 3
+# vsim "+nowarn3829" -error 3015 -voptargs="+acc" -l transcript.txt work.testbench 
+# Start time: 13:35:31 on Mar 20,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading work.top(fast)
+# Loading work.arm(fast)
+# Loading work.controller(fast)
+# Loading work.decoder(fast)
+# Loading work.condlogic(fast)
+# Loading work.flopenr(fast)
+# Loading work.condcheck(fast)
+# Loading work.datapath(fast)
+# Loading work.mux2(fast)
+# Loading work.flopenr(fast__1)
+# Loading work.adder(fast)
+# Loading work.mux2(fast__1)
+# Loading work.regfile(fast)
+# Loading work.extend(fast)
+# Loading work.alu(fast)
+# Loading work.imem(fast)
+# Loading work.dmem(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: danth  Hostname: DANIELDESKTOP  ProcessID: 24756
+#           Attempting to use alternate WLF file "./wlft7yevib".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7yevib
+do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is danth@DANIELDESKTOP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# ./memfile2.dat
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:00 on Mar 20,2022
+# vlog -reportprogress 300 imem.v dmem.v arm_single.sv top.sv tb.sv 
+# -- Compiling module imem
+# -- Compiling module dmem
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# -- Compiling module top
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	flopr
+# 	testbench
+# End time: 17:47:00 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:47:01 on Mar 20,2022, Elapsed time: 4:11:30
 # Errors: 0, Warnings: 3
 # vsim "+nowarn3829" -error 3015 -voptargs="+acc" -l transcript.txt work.testbench 
-# Start time: 17:06:26 on Mar 12,2022
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# Loading sv_std.std
-# Loading work.testbench(fast)
-# Loading work.top(fast)
-# Loading work.arm(fast)
-# Loading work.controller(fast)
-# Loading work.decoder(fast)
-# Loading work.condlogic(fast)
-# Loading work.flopenr(fast)
-# Loading work.condcheck(fast)
-# Loading work.datapath(fast)
-# Loading work.mux2(fast)
-# Loading work.flopenr(fast__1)
-# Loading work.adder(fast)
-# Loading work.mux2(fast__1)
-# Loading work.regfile(fast)
-# Loading work.extend(fast)
-# Loading work.alu(fast)
-# Loading work.imem(fast)
-# Loading work.dmem(fast)
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: danth  Hostname: DANIELDESKTOP  ProcessID: 24756
-#           Attempting to use alternate WLF file "./wlftmhc7af".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftmhc7af
+# Start time: 17:47:01 on Mar 20,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): arm_single.sv(140): (vopt-2912) Port 'shift' not found in module 'decoder' (14th connection).
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO C:\modeltech64_10.7f\win64\Lab 3\arm_single.do PAUSED at line 35
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:36 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:36 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:41 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:41 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:41 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:41 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:41 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:41 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:44 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:44 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:44 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:44 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:44 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:44 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:44 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:44 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:44 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:44 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:44 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:44 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:50 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:50 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:50 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:50 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:50 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:50 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:50 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:50 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:50 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:50 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:50 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:50 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:50 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:50 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:50 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:50 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/dmem.v}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:50 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/dmem.v 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 17:47:50 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:50 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:50 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:50 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:50 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:51 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:51 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/imem.v}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:51 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/imem.v 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 17:47:51 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:51 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:51 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:51 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:47:51 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/tb.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:51 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/tb.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 17:47:51 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/top.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:47:51 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:47:51 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is danth@DANIELDESKTOP.
-# ** Warning: (vlib-34) Library already exists at "work".
 # ./memfile2.dat
 # Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
-# Start time: 17:11:08 on Mar 12,2022
+# Start time: 17:47:55 on Mar 20,2022
 # vlog -reportprogress 300 imem.v dmem.v arm_single.sv top.sv tb.sv 
 # -- Compiling module imem
 # -- Compiling module dmem
@@ -112,43 +1372,360 @@ do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
 # Top level modules:
 # 	flopr
 # 	testbench
-# End time: 17:11:08 on Mar 12,2022, Elapsed time: 0:00:00
+# End time: 17:47:55 on Mar 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 17:11:09 on Mar 12,2022, Elapsed time: 0:04:43
-# Errors: 0, Warnings: 3
 # vsim "+nowarn3829" -error 3015 -voptargs="+acc" -l transcript.txt work.testbench 
-# Start time: 17:11:09 on Mar 12,2022
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# Loading sv_std.std
-# Loading work.testbench(fast)
-# Loading work.top(fast)
-# Loading work.arm(fast)
-# Loading work.controller(fast)
-# Loading work.decoder(fast)
-# Loading work.condlogic(fast)
-# Loading work.flopenr(fast)
-# Loading work.condcheck(fast)
-# Loading work.datapath(fast)
-# Loading work.mux2(fast)
-# Loading work.flopenr(fast__1)
-# Loading work.adder(fast)
-# Loading work.mux2(fast__1)
-# Loading work.regfile(fast)
-# Loading work.extend(fast)
-# Loading work.alu(fast)
-# Loading work.imem(fast)
-# Loading work.dmem(fast)
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: danth  Hostname: DANIELDESKTOP  ProcessID: 24756
-#           Attempting to use alternate WLF file "./wlftbftywn".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftbftywn
+# Start time: 17:47:01 on Mar 20,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): arm_single.sv(140): (vopt-2912) Port 'shift' not found in module 'decoder' (14th connection).
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO C:\modeltech64_10.7f\win64\Lab 3\arm_single.do PAUSED at line 35
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:48:59 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:48:59 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:48:59 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:48:59 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:48:59 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:48:59 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:48:59 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:48:59 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:48:59 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:48:59 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:49:00 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:49:00 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:49:00 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:49:00 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:49:00 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:49:00 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/dmem.v}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:49:00 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/dmem.v 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 17:49:00 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:49:00 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:49:00 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:49:00 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:49:00 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:49:00 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:49:00 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/imem.v}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:49:01 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/imem.v 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 17:49:01 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:49:01 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:49:01 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:49:01 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 17:49:01 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/tb.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:49:01 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/tb.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 17:49:01 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/top.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 17:49:01 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:49:01 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is danth@DANIELDESKTOP.
-# ** Warning: (vlib-34) Library already exists at "work".
 # ./memfile2.dat
 # Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
-# Start time: 17:14:47 on Mar 12,2022
+# Start time: 17:49:06 on Mar 20,2022
 # vlog -reportprogress 300 imem.v dmem.v arm_single.sv top.sv tb.sv 
 # -- Compiling module imem
 # -- Compiling module dmem
@@ -171,13 +1748,11 @@ do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
 # Top level modules:
 # 	flopr
 # 	testbench
-# End time: 17:14:47 on Mar 12,2022, Elapsed time: 0:00:00
+# End time: 17:49:06 on Mar 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 17:14:54 on Mar 12,2022, Elapsed time: 0:03:45
-# Errors: 0, Warnings: 3
 # vsim "+nowarn3829" -error 3015 -voptargs="+acc" -l transcript.txt work.testbench 
-# Start time: 17:14:54 on Mar 12,2022
-# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Start time: 17:47:01 on Mar 20,2022
+# ** Note: (vsim-3812) Design is being optimized...
 # Loading sv_std.std
 # Loading work.testbench(fast)
 # Loading work.top(fast)
@@ -199,15 +1774,693 @@ do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
 # Loading work.dmem(fast)
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: danth  Hostname: DANIELDESKTOP  ProcessID: 24756
-#           Attempting to use alternate WLF file "./wlftaf7y69".
+#           Attempting to use alternate WLF file "./wlftv19d4i".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftaf7y69
+#           Using alternate file: ./wlftv19d4i
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:46 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:46 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:46 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:46 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:46 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:46 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:46 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:46 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:46 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:46 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:46 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:46 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:46 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:46 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:46 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:47 on Mar 20,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/dmem.v}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:47 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/dmem.v 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 18:16:47 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:47 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:47 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:47 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:47 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:47 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:47 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/imem.v}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:47 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/imem.v 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 18:16:47 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:47 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:47 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:47 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:47 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/tb.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:47 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/tb.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 18:16:47 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/top.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:47 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:16:47 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:58 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:58 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:58 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:58 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:58 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:58 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:58 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:58 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:58 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:59 on Mar 20,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:59 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:59 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:59 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:59 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:59 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:59 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/dmem.v}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:59 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/dmem.v 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 18:16:59 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:59 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:59 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:16:59 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:16:59 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:17:00 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:17:00 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/imem.v}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:17:00 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/imem.v 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 18:17:00 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:17:00 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:17:00 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:17:00 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/arm_single.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decoder
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	flopr
+# End time: 18:17:00 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/tb.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:17:00 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/tb.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 18:17:00 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {C:/modeltech64_10.7f/win64/Lab 3/top.sv}
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 18:17:00 on Mar 20,2022
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/modeltech64_10.7f/win64/Lab 3/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 18:17:00 on Mar 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
 # ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is danth@DANIELDESKTOP.
 # ** Warning: (vlib-34) Library already exists at "work".
 # ./memfile2.dat
 # Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
-# Start time: 17:27:20 on Mar 12,2022
+# Start time: 18:17:04 on Mar 20,2022
 # vlog -reportprogress 300 imem.v dmem.v arm_single.sv top.sv tb.sv 
 # -- Compiling module imem
 # -- Compiling module dmem
@@ -230,12 +2483,12 @@ do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
 # Top level modules:
 # 	flopr
 # 	testbench
-# End time: 17:27:20 on Mar 12,2022, Elapsed time: 0:00:00
+# End time: 18:17:04 on Mar 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 17:27:21 on Mar 12,2022, Elapsed time: 0:12:27
-# Errors: 0, Warnings: 3
+# End time: 18:17:04 on Mar 20,2022, Elapsed time: 0:30:03
+# Errors: 2, Warnings: 3
 # vsim "+nowarn3829" -error 3015 -voptargs="+acc" -l transcript.txt work.testbench 
-# Start time: 17:27:21 on Mar 12,2022
+# Start time: 18:17:04 on Mar 20,2022
 # ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading sv_std.std
 # Loading work.testbench(fast)
@@ -258,187 +2511,6 @@ do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
 # Loading work.dmem(fast)
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: danth  Hostname: DANIELDESKTOP  ProcessID: 24756
-#           Attempting to use alternate WLF file "./wlft91s8kx".
+#           Attempting to use alternate WLF file "./wlft2f8v81".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft91s8kx
-do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is danth@DANIELDESKTOP.
-# ** Warning: (vlib-34) Library already exists at "work".
-# ./memfile2.dat
-# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
-# Start time: 17:35:06 on Mar 12,2022
-# vlog -reportprogress 300 imem.v dmem.v arm_single.sv top.sv tb.sv 
-# -- Compiling module imem
-# -- Compiling module dmem
-# -- Compiling module arm
-# -- Compiling module controller
-# -- Compiling module decoder
-# -- Compiling module condlogic
-# -- Compiling module condcheck
-# -- Compiling module datapath
-# -- Compiling module regfile
-# -- Compiling module extend
-# -- Compiling module adder
-# -- Compiling module flopenr
-# -- Compiling module flopr
-# -- Compiling module mux2
-# -- Compiling module alu
-# -- Compiling module top
-# -- Compiling module testbench
-# 
-# Top level modules:
-# 	flopr
-# 	testbench
-# End time: 17:35:06 on Mar 12,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 17:35:07 on Mar 12,2022, Elapsed time: 0:07:46
-# Errors: 0, Warnings: 3
-# vsim "+nowarn3829" -error 3015 -voptargs="+acc" -l transcript.txt work.testbench 
-# Start time: 17:35:07 on Mar 12,2022
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# Loading sv_std.std
-# Loading work.testbench(fast)
-# Loading work.top(fast)
-# Loading work.arm(fast)
-# Loading work.controller(fast)
-# Loading work.decoder(fast)
-# Loading work.condlogic(fast)
-# Loading work.flopenr(fast)
-# Loading work.condcheck(fast)
-# Loading work.datapath(fast)
-# Loading work.mux2(fast)
-# Loading work.flopenr(fast__1)
-# Loading work.adder(fast)
-# Loading work.mux2(fast__1)
-# Loading work.regfile(fast)
-# Loading work.extend(fast)
-# Loading work.alu(fast)
-# Loading work.imem(fast)
-# Loading work.dmem(fast)
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: danth  Hostname: DANIELDESKTOP  ProcessID: 24756
-#           Attempting to use alternate WLF file "./wlft3exygf".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft3exygf
-# Causality operation skipped due to absence of debug database file
-do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is danth@DANIELDESKTOP.
-# ** Warning: (vlib-34) Library already exists at "work".
-# ./memfile2.dat
-# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
-# Start time: 17:48:55 on Mar 12,2022
-# vlog -reportprogress 300 imem.v dmem.v arm_single.sv top.sv tb.sv 
-# -- Compiling module imem
-# -- Compiling module dmem
-# -- Compiling module arm
-# -- Compiling module controller
-# -- Compiling module decoder
-# -- Compiling module condlogic
-# -- Compiling module condcheck
-# -- Compiling module datapath
-# -- Compiling module regfile
-# -- Compiling module extend
-# -- Compiling module adder
-# -- Compiling module flopenr
-# -- Compiling module flopr
-# -- Compiling module mux2
-# -- Compiling module alu
-# -- Compiling module top
-# -- Compiling module testbench
-# 
-# Top level modules:
-# 	flopr
-# 	testbench
-# End time: 17:48:55 on Mar 12,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 17:48:56 on Mar 12,2022, Elapsed time: 0:13:49
-# Errors: 0, Warnings: 4
-# vsim "+nowarn3829" -error 3015 -voptargs="+acc" -l transcript.txt work.testbench 
-# Start time: 17:48:56 on Mar 12,2022
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# Loading sv_std.std
-# Loading work.testbench(fast)
-# Loading work.top(fast)
-# Loading work.arm(fast)
-# Loading work.controller(fast)
-# Loading work.decoder(fast)
-# Loading work.condlogic(fast)
-# Loading work.flopenr(fast)
-# Loading work.condcheck(fast)
-# Loading work.datapath(fast)
-# Loading work.mux2(fast)
-# Loading work.flopenr(fast__1)
-# Loading work.adder(fast)
-# Loading work.mux2(fast__1)
-# Loading work.regfile(fast)
-# Loading work.extend(fast)
-# Loading work.alu(fast)
-# Loading work.imem(fast)
-# Loading work.dmem(fast)
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: danth  Hostname: DANIELDESKTOP  ProcessID: 24756
-#           Attempting to use alternate WLF file "./wlft397jk5".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft397jk5
-# Can't move the Now cursor.
-do {C:/modeltech64_10.7f/win64/Lab 3/arm_single.do}
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is danth@DANIELDESKTOP.
-# ** Warning: (vlib-34) Library already exists at "work".
-# ./memfile2.dat
-# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
-# Start time: 17:50:34 on Mar 12,2022
-# vlog -reportprogress 300 imem.v dmem.v arm_single.sv top.sv tb.sv 
-# -- Compiling module imem
-# -- Compiling module dmem
-# -- Compiling module arm
-# -- Compiling module controller
-# -- Compiling module decoder
-# -- Compiling module condlogic
-# -- Compiling module condcheck
-# -- Compiling module datapath
-# -- Compiling module regfile
-# -- Compiling module extend
-# -- Compiling module adder
-# -- Compiling module flopenr
-# -- Compiling module flopr
-# -- Compiling module mux2
-# -- Compiling module alu
-# -- Compiling module top
-# -- Compiling module testbench
-# 
-# Top level modules:
-# 	flopr
-# 	testbench
-# End time: 17:50:34 on Mar 12,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 17:50:35 on Mar 12,2022, Elapsed time: 0:01:39
-# Errors: 1, Warnings: 3
-# vsim "+nowarn3829" -error 3015 -voptargs="+acc" -l transcript.txt work.testbench 
-# Start time: 17:50:35 on Mar 12,2022
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# Loading sv_std.std
-# Loading work.testbench(fast)
-# Loading work.top(fast)
-# Loading work.arm(fast)
-# Loading work.controller(fast)
-# Loading work.decoder(fast)
-# Loading work.condlogic(fast)
-# Loading work.flopenr(fast)
-# Loading work.condcheck(fast)
-# Loading work.datapath(fast)
-# Loading work.mux2(fast)
-# Loading work.flopenr(fast__1)
-# Loading work.adder(fast)
-# Loading work.mux2(fast__1)
-# Loading work.regfile(fast)
-# Loading work.extend(fast)
-# Loading work.alu(fast)
-# Loading work.imem(fast)
-# Loading work.dmem(fast)
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: danth  Hostname: DANIELDESKTOP  ProcessID: 24756
-#           Attempting to use alternate WLF file "./wlftkh20k3".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftkh20k3
-# End time: 17:55:29 on Mar 12,2022, Elapsed time: 0:04:54
-# Errors: 0, Warnings: 2
+#           Using alternate file: ./wlft2f8v81
